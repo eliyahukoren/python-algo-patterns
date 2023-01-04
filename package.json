@@ -1,0 +1,17 @@
+{
+ 	"name": "Python",
+ 	"description" : "Will add later",
+ 	"version": "1.0.0",
+ 	"main": "index.js",
+ 	"author": "Eliyahu Koren <elik.koren@gmail.com>",
+ 	"license": "MIT",
+ 	"categories": [
+ 		"LeetCode",
+ 		"Javascript",
+ 		"algorithm",
+ 		"sss"
+ 	],
+ 	"scripts": {
+ "test": "sss"
+ 	}
+ }
