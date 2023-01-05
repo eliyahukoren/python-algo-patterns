@@ -1,6 +1,29 @@
 class MultiplePointers:
-    # [1,2,3] average: 2.5
+    """Average Pair Solution"""
+
     def average_pair(self, arr, target):
+        """Takes sorted array of integers and a target average,
+
+        determine if there is a pair of values in the array where the average of the pair
+
+        equals the target average. There may be more than one pair that matches the average target.
+
+        Bonus Constraints:
+
+        Time: O(N)
+
+        Space: O(1)
+
+        Sample Input:
+
+        averagePair([1,2,3],2.5) // true
+
+        averagePair([1,3,3,5,6,7,10,12,19],8) // true
+
+        averagePair([-1,0,3,4,5,6], 4.1) // false
+
+        averagePair([],4) // false
+        """
         n = len(arr)
         if n == 0:
             return False
@@ -20,6 +43,8 @@ class MultiplePointers:
                 j -= 1
 
         return False
+
+    """Is Subsequence Solution"""
 
     def is_subsequence(self, str, word):
         """
@@ -50,5 +75,21 @@ class MultiplePointers:
 
         Returns: boolean
         """
-        return True
+        # pointer on str
+        i = 0
+        # pointer on word
+        j = 0
+        n = len(str)
+        m = len(word)
 
+        # empty str ? return False
+        if n == 0:
+            return False
+
+        # iterate on word
+        while(j < m):
+            if str[i] == word[j]: i += 1
+            if i == n: return True
+            j += 1
+
+        return False
