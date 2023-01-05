@@ -7,8 +7,11 @@
 
 ![Language](https://img.shields.io/badge/Language-Python-yellow)
 
-| Algorithm   |      Example      |
-|----------|:-------------:|
-| Frequency Counter |  [Anagram](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/anagram.py) |
-| Frequency Counter |    [Words Count](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/words.py)   |
-| Frequency Counter | [Same Squared](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/same.py) |
+| Algorithm   |      Example      | Tests |
+|----------|:-------------:|:--------:|
+| Frequency Counter |  [Anagram](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/anagram.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/FrequencyCounter/test_anagram.py) |
+| Frequency Counter |    [Words Count](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/words.py)   | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/FrequencyCounter/test_words.py) |
+| Frequency Counter | [Same Squared](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/same.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/FrequencyCounter/test_same.py) |
+| Divide And Conquer | to be added | to be added |
+| Multiple Pointers | to be added | to be added |
+| Sliding Window | to be added | to be added |
