@@ -13,5 +13,7 @@
 | Frequency Counter |    [Words Count](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/words.py)   | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/FrequencyCounter/test_words.py) |
 | Frequency Counter | [Same Squared](https://github.com/eliyahukoren/python-algo-patterns/blob/master/FrequencyCounter/same.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/FrequencyCounter/test_same.py) |
 | Divide And Conquer | to be added | to be added |
-| Multiple Pointers | to be added | to be added |
+| Multiple Pointers | [Average Pair](https://github.com/eliyahukoren/python-algo-patterns/blob/master/MultiplePointers/main.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/MultiplePointers/test_multiple_pointers.py) |
+| Multiple Pointers | [Is Subsequence](https://github.com/eliyahukoren/python-algo-patterns/blob/master/MultiplePointers/main.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/master/test/MultiplePointers/test_multiple_pointers.py) |
+
 | Sliding Window | to be added | to be added |
