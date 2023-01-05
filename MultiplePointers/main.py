@@ -1,3 +1,5 @@
+from typing import List
+
 class MultiplePointers:
     """Average Pair Solution"""
 
@@ -95,3 +97,40 @@ class MultiplePointers:
             j += 1
 
         return False
+
+    """
+    Takes an array of strings arr[].
+    You have to find the longest string which is lexicographically smallest and also all of its prefix strings are already present in the array.
+
+    Input: ab a abc abd
+    Output: abc
+
+    Explanation: We can see that length of the longest
+    string is 3. And there are two string "abc" and "abd"
+    of length 3. But for string "abc" , all of its prefix
+    "a" "ab" "abc" are present in the array. So the
+    output is "abc".
+    """
+    def find_longest_string(self, str: List[str]):
+        # ['a', 'ab', 'abc', 'abd']
+
+        """Find the longest string which is lexicographically smallest and also all of its prefix strings are already present in the array.
+
+        Returns:
+            List[str]: Longest string
+        """
+        i = 0
+        j = 1
+        str.sort()
+        n = len(str)
+        result = []
+
+        while(j < n):
+            print(f'compare: {str[i]} and {str[j]}')
+            if self.is_subsequence(str[i], str[j]):
+                result.append(str[j])
+                i += 1
+
+            j += 1
+
+        return result[len(result)-1] if len(result) > 0 else ""

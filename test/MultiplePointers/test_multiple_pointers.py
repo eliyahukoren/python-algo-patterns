@@ -41,3 +41,17 @@ class TestMultiplePointers(unittest.TestCase):
         for test in testData:
             self.assertEqual(mp.is_subsequence(test[0], test[1]), test[2])
 
+
+    def test_longest_string(self):
+        mp = MultiplePointers()
+
+        testData = [
+            [["ab", "a", "abc", "abd"], "abc"],
+            [["ab", "a", "aa", "abd", "abc", "abda", "abdd", "abde", "abdab"], "abdab"],
+            [["qut", "qe", "ql", "g", "qu", "quk", "quf",
+                "n", "quw", "q", "x", "qk"], "quf"]
+        ]
+
+        for test in testData:
+            self.assertEqual(mp.find_longest_string(test[0]), test[1])
+

@@ -15,4 +15,5 @@
 | Divide And Conquer | to be added | to be added |
 | Multiple Pointers | [Average Pair](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/MultiplePointers/main.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/test/MultiplePointers/test_multiple_pointers.py) |
 | Multiple Pointers | [Is Subsequence](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/MultiplePointers/main.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/test/MultiplePointers/test_multiple_pointers.py) |
+| Multiple Pointers | [Longest Substring](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/MultiplePointers/main.py) | [Test](https://github.com/eliyahukoren/python-algo-patterns/blob/multiplepointers/averagepairs/test/MultiplePointers/test_multiple_pointers.py) |
 | Sliding Window | to be added | to be added |
