@@ -88,8 +88,10 @@ class MultiplePointers:
 
         # iterate on word
         while(j < m):
+            # equal, move left pointer
             if str[i] == word[j]: i += 1
             if i == n: return True
+            # move right pointer
             j += 1
 
         return False
